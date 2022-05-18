@@ -13,3 +13,8 @@ can't use the gcc-based Zephyr SDK.
 
 - 01-rust-hello
   Hello world example in Rust.
+  Run with `cargo run`
+
+- 02-zig-hello
+  Hello world example in Zig.
+  Run with `zig run hello.zig`

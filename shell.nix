@@ -5,5 +5,6 @@ in
 pkgs.mkShell {
   nativeBuildInputs = [
     pkgs.cargo
+    pkgs.zig
   ];
 }
