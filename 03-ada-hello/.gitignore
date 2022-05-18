@@ -1,0 +1,4 @@
+# Ignore for hello program
+hello
+*.ali
+*.o

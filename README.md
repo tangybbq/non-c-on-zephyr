@@ -18,3 +18,7 @@ can't use the gcc-based Zephyr SDK.
 - 02-zig-hello
   Hello world example in Zig.
   Run with `zig run hello.zig`
+
+- 03-ada-hello
+  Hello world example in Ada.
+  Run with `gnatmake hello`, followed by `./hello`.
