@@ -1,0 +1,9 @@
+# Zig has a local cache directory
+zig-cache/
+tmp/
+
+# Object file
+main.o
+
+# Cmake's use of external project
+src/zig_project-stamp/

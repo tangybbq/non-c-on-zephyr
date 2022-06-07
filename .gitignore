@@ -3,3 +3,6 @@
 
 # And Rust build directories.
 target/
+
+# West build directories
+build/
