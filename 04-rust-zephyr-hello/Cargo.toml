@@ -1,0 +1,28 @@
+[package]
+name = "rust-hello"
+version = "0.1.0"
+authors = ["David Brown <david.brown@linaro.org>"]
+edition = "2018"
+
+[lib]
+crate-type = ["staticlib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# cortex-m = "0.6.2"
+# cortex-m-rt = "0.6.12"
+panic-halt = "0.2.0"
+
+# Bring in the logging framework, but disable any features that might
+# pull in other things.
+log = { version = "0.4", features = [] }
+
+[profile.release]
+codegen-units = 1
+debug = true
+lto = true
+panic = "abort"
+
+[profile.dev]
+panic = "abort"
