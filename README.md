@@ -22,3 +22,15 @@ can't use the gcc-based Zephyr SDK.
 - 03-ada-hello
   Hello world example in Ada.
   Run with `gnatmake hello`, followed by `./hello`.
+
+- 04-rust-zephyr-hello
+  Hello world example, with main in Rust, running in Zephyr
+  Run with:
+  - `west build -b mps2_an521`
+  - `west build -t run`
+
+- 05-zig-zephyr-hello
+  Hello world example, with main in Zig, running in Zephyr
+  Run with:
+  - `west build -t mps2_an521`
+  - `west build -t run`

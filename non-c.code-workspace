@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../zep/zephyr"
+		}
+	],
+	"settings": {
+		"nixEnvSelector.nixFile": "${workspaceRoot}/shell.nix",
+		"workbench.colorCustomizations": {
+                        "activityBar.activeBackground": "#b89dda",
+                        "activityBar.activeBorder": "#f6eee8",
+                        "activityBar.background": "#b89dda",
+                        "activityBar.foreground": "#15202b",
+                        "activityBar.inactiveForeground": "#15202b99",
+                        "activityBarBadge.background": "#f6eee8",
+                        "activityBarBadge.foreground": "#15202b",
+                        "sash.hoverBorder": "#b89dda",
+                        "statusBar.background": "#9d78cc",
+                        "statusBar.foreground": "#15202b",
+                        "statusBarItem.hoverBackground": "#8253be",
+                        "statusBarItem.remoteBackground": "#9d78cc",
+                        "statusBarItem.remoteForeground": "#15202b",
+                        "titleBar.activeBackground": "#9d78cc",
+                        "titleBar.activeForeground": "#15202b",
+                        "titleBar.inactiveBackground": "#9d78cc99",
+                        "titleBar.inactiveForeground": "#15202b99"
+                },
+		"peacock.remoteColor": "#9d78cc"
+	}
+}

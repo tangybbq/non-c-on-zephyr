@@ -6,3 +6,6 @@ target/
 
 # West build directories
 build/
+
+# Log file from the vls language server.
+vls.log
